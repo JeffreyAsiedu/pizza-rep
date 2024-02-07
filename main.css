@@ -1,0 +1,310 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  z-index: 10;
+  position: fixed;
+  width: 1350px;
+}
+
+.nav-link {
+  color: gray;
+}
+
+.nav-link:hover {
+  color: rgb(250, 197, 100);
+}
+
+.nav-link:focus {
+  color: rgb(250, 197, 100);
+}
+
+/* .nav-link::content{
+    color: orange;
+} */
+
+.navbar-brand {
+  color: rgb(250, 197, 100);
+  padding: 0;
+  font-size: 18px;
+}
+
+.navbar-brand:hover {
+  color: rgb(250, 197, 100);
+}
+
+.nav-link {
+  color: gray;
+}
+
+.pizza-about {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.pizza {
+  margin-top: -320px;
+  margin-right: 50px;
+}
+
+.pizza1-about {
+  margin-top: 200px;
+  margin-left: 55%;
+}
+
+.pizza1 {
+  margin-top: -280px;
+  margin-left: 100px;
+}
+
+.pizza2-about {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.first-card {
+  background-color: gainsboro;
+  width: 50px;
+  height: 200px;
+}
+
+.chef {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.master {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.utensils {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.quality {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.cart {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.order {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.helpline {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.service {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.first-card:hover {
+  background-color: orange;
+}
+
+.note-about {
+  height: 600px;
+}
+
+.about-us {
+  display: inline-block;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 55px;
+  color: orange;
+}
+
+.about-text {
+  font-size: 25px;
+  line-height: 50px;
+  color: gray;
+}
+
+.papa {
+  display: inline-block;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+
+.contact-image {
+  margin-top: 100px;
+}
+
+.heading1 {
+  margin-top: 95px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.fname {
+  margin-top: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  width: 500px;
+  height: 5vh;
+  outline: none;
+  background-color: transparent;
+}
+
+.lname {
+  margin-top: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  width: 500px;
+  height: 5vh;
+  outline: none;
+  background-color: transparent;
+}
+
+.message {
+  margin-top: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  width: 500px;
+  height: 5vh;
+  outline: none;
+  background-color: transparent;
+}
+
+.send {
+  border: none;
+  padding: 20px;
+  font-size: small;
+  background-color: rgb(250, 197, 100);
+  margin-top: 30px;
+}
+
+.send:hover {
+  background-color: transparent;
+  border: solid 1px rgb(250, 197, 100);
+}
+
+.info {
+  margin-top: 50px;
+}
+
+.footer-call {
+  font-size: xx-large;
+  color: orange;
+}
+
+.opening {
+  font-size: xx-large;
+  color: orange;
+}
+
+.orderpizza {
+  color: gray;
+}
+
+.available {
+  margin-top: 50px;
+}
+
+.hours1 {
+  color: gray;
+}
+
+.news {
+  margin-top: 50px;
+}
+
+.letter {
+  font-size: xx-large;
+  color: orange;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.media {
+  padding: 20px;
+  color: gray;
+}
+
+.pizza-container {
+  margin-top: 100px;
+}
+
+.our-menu {
+  color: white;
+  font-weight: 700;
+}
+
+.menu {
+  text-align: center;
+  margin-top: -300px;
+}
+
+.price {
+  justify-content: space-around;
+}
+
+.pizza-menu {
+  margin: 0 70px;
+}
+
+.pizza-1 {
+  color: white;
+  margin-left: 110px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pizza-1about {
+  color: white;
+  margin-left: 70px;
+}
+
+.price {
+  color: orange;
+  margin-left: 120px;
+}
+
+.pizza-cart {
+  margin-left: 110px;
+  background-color: transparent;
+  color: white;
+  border: solid 1px white;
+  padding: 7px;
+  font-size: small;
+}
+
+.pizza-cart:hover {
+  background-color: rgb(250, 197, 100);
+  color: black;
+  border: none;
+}
+
+.services {
+  margin-left: 70px;
+}
+
+.service-image {
+  margin-left: 50px;
+}
+
+.heading {
+  margin-left: 10px;
+  font-size: 30px;
+}

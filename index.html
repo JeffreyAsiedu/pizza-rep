@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="images/pizza.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Delicious</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/pizza-slice.png"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          <span class="logo">Pizza <br /><small>Delicious</small></span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide mb-5"
+      data-bs-ride="carousel"
+      style="
+        background-image: url(images/bg_1.jpg);
+        height: 100vh;
+        position: relative;
+        z-index: 0;
+      "
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col pizza-about">
+            <span class="subheading" style="color: rgb(250, 197, 100); font-size: 20px; font-family: cursive; font-weight: 600; margin-left: 50px;">Delicious</span><br><br>
+            <h1 class="cuizine" style="color: white; font-size: 50px; font-weight: 600;">Pizza Cuizine</h1><br>
+            <p style="color: white; font-size: 20px;">
+              A small river named Duden flows by their place and supplies <br />
+              it with the necessary regelialia.
+            </p>
+          </div>
+          <img
+            src="images/bg_1.png"
+            class="image-fluid float-end pizza"
+            alt="..."
+            height="500px"
+            width="550px"
+          />
+        </div>
+        <div class="carousel-item">
+          <div class="col pizza1-about">
+            <span class="subheading"  style="color: rgb(250, 197, 100); font-size: 20px; font-family: cursive; font-weight: 600; margin-left: 50px;">Crunchy</span><br><br>
+            <h1 style="color: white; font-size: 50px; font-weight: 600;">Italian Pizza</h1>
+            <p style="color: white; font-size: 20px;">
+              A small river named Duden flows by their place and supplies <br />
+              it with the necessary regelialia.
+            </p>
+          </div>
+          <img
+            src="images/bg_2.png"
+            class="image-fluid float-start pizza1"
+            alt="..."
+            width="550px"
+            height="500px"
+          />
+        </div>
+        <div
+          class="carousel-item"
+          style="background-image: url(images/bg_3.jpg); height: 100vh"
+        >
+          <div class="col pizza2-about">
+            <span class="subheading"  style="color: rgb(250, 197, 100); font-size: 20px; font-family: cursive; font-weight: 600; margin-left: 50px;">Welcome</span>
+            <h1 style="color: white; font-size: 50px; font-weight: 600;"><br>
+              We cooked your desired <br />
+              Pizza Recipe
+            </h1><br>
+            <p style="color: white; font-size: 20px;">
+              A small river named Duden flows by their place and supplies
+              <br />it with the necessary regelialia.
+            </p>
+          </div>
+          <!-- <img src="..." class="d-block w-100" alt="..." /> -->
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container text-left mb-5">
+      <div class="row align-items-start gap-5">
+        <div class="col first-card">
+          <img
+            src="images/employee-man-alt.png"
+            alt=""
+            class="chef"
+            width="40px"
+            height="40px"
+          />
+          <div class="master"><strong>Master Chefs</strong></div>
+          <p class="master">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="col first-card">
+          <img
+            src="images/utensils.png"
+            alt=""
+            class="utensils"
+            width="40px"
+            height="40px"
+          />
+          <div class="quality"><strong>Quality Food</strong></div>
+          <p class="master">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="col first-card">
+          <img
+            src="images/shopping-cart.png"
+            alt=""
+            class="cart"
+            width="40px"
+            height="40px"
+          />
+          <div class="order"><strong>Online Order</strong></div>
+          <p class="master">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="col first-card">
+          <img
+            src="images/user-headset.png"
+            alt=""
+            class="helpline"
+            width="40px"
+            height="40px"
+          />
+          <div class="service"><strong>24/7 Service</strong></div>
+          <p class="master">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center mb-5 note-about" style="background-image: url(images/bg_4.jpg);">
+        <div class="about">
+            <div class="about-us">About Us</div>
+            <p class="about-text">
+              On her way she met a copy. The copy warned the Little Blind Text,
+              <br />
+              that where it came from it would have been rewritten a thousand times
+              <br />
+              and everything that was left from its origin would be the word "and"
+              <br />
+              and the Little Blind Text should turn around and return to its own,
+              <br />
+              safe country. But nothing the copy said could convince her and so it
+              <br />
+              didn’t take long until a few insidious Copy Writers ambushed her, made
+              <br />
+              her drunk with Longe and Parole and dragged her into their agency,
+              <br />
+              where they abused her for their.
+            </p>
+          </div>
+    </div>
+
+    <div class="container-fluid mb-2">
+        <div class="make" style="color: rgb(250, 197, 100);text-align: center; font-size: 22px; font-weight: 700;">
+            We make our own dough fresh each day, mix cheeses to get the best taste
+            with the freshest toppings
+        </div>
+        <div class="container-fluid">
+          <div class="d-md-flex justify-content-evenly">
+            <img src="images/papa1.jpg" alt="" width="250px" height="200px" class="papa"/>
+            <img src="images/papa2.jpg" alt="" width="250px" height="200px" class="papa"/>
+            <img src="images/papa3.jpg" alt="" width="250px" height="200px" class="papa"/>
+            <img src="images/papa5.jpg" alt="" width="250px" height="200px" class="papa"/>
+            <img src="images/pizza-8.jpg" alt="" width="250px" height="200px" class="papa"/>
+          </div>
+    </div>
+
+    <div class="container-fluid mt-5" style="background-color: rgb(44, 43, 43); height: 600px;">
+      <div class="d-md-flex justify-content-around">
+          <img src="images/about.jpg" alt="" class="image-fluid contact-image" width="700px" height="400px">
+          <div class="form-container">
+            <form action="" class="left">
+              <p class="heading1">Contact Us</p>
+              <input
+                type="text"
+                placeholder="FirstName"
+                class="fname"
+              /><br /><br />
+    
+              <input type="text" placeholder="LastName" class="lname" /><br /><br />
+    
+              <input
+                type="text"
+                placeholder="Message"
+                class="message"
+              /><br /><br />
+              <button class="send">Send</button>
+            </form>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="background-image: url(images/bg_4.jpg); height: 60vh;">
+      <div class="d-flex justify-content-evenly">
+        <div class="info">
+          <div class="footer-call">Call us</div>
+          <br />
+          <div class="orderpizza">Order our Pizza today! Please call</div>
+          <br />
+          <div class="orderpizza">0241 150 555 | 0245753265</div>
+          <div class="social">
+            <a href="" class="media"
+              ><img src="images/twitter-fill.png" alt=""
+            /></a>
+            <a href="" class="media"
+              ><img src="images/facebook-fill.png" alt=""
+            /></a>
+            <a href="" class="media"
+              ><img src="images/instagram-line.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="available">
+          <div class="opening">Opening Hours</div>
+          <br />
+          <div class="hours1">
+            Monday to Friday <br />
+            10:00 am - 11-00pm
+          </div>
+          <br />
+          <div class="hours1">
+            Saturday to Sunday <br />
+            09:30 am - 12:00 am
+          </div>
+        </div>
+        <div class="news">
+          <div class="letter">NewsLetter</div>
+          <br />
+          <input type="text" placeholder="Your Email" style="width: 300px;" /><br /><br />
+          <button style="border: none">Sign Up</button>
+        </div>
+      </div>
+    </div>  
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
